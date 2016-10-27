@@ -64,7 +64,7 @@ if( !empty($id) ) {
         <div >
           <div class="col-sm-7"></div>
           <?php if( !empty($id) ) { ?>
-          <img src="../upload/<?php echo @($art->_image)?>" width="150" /> 
+          <img src="./upload/<?php echo @($art->_image)?>" width="150" /> 
           <?php } ?>
       </div>
 
