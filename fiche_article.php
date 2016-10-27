@@ -16,7 +16,7 @@ if( !empty($id) ) {
 			<div class="row" id="content">
 				<div class="col-md-3" >
 					<?php if( !empty($id) ) { ?>
-					<img src="../upload/<?php echo @($art->_image)?>" width="150" /> 
+					<img src="admin/upload/<?php echo @($art->_image)?>" width="150" /> 
 					<?php } ?>
 				</div>
 				<div class="col-md-9" id="content_text">
