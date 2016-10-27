@@ -34,7 +34,7 @@ if( !empty($id) ) {
           } 
           ?>
                    
-           <form class="form-horizontal" action="article_new_action.php" method="post">
+           <form enctype="multipart/form-data" class="form-horizontal" action="article_new_action.php" method="post">
         
            <div  style="display:none">
               <input type="number"  id="id" name="id"  value="<?php echo @($art->_id); ?>" > 
